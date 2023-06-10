@@ -1,0 +1,15 @@
+GET  http://localhost:3001/todos
+
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Look after my parent"
+}
+###
+DELETE http://localhost:3001/todo/delete/64844608e5aa8beb86ac7ba2
+
+###
+PUT http://localhost:3001/todo/complete/6
